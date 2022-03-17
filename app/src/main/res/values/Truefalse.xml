@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tf">
+        <item>Android is an open-source operating system</item>
+        <item>Android developers require some tools and this requirement is satisfied by Android API</item>
+        <item>Java is the widely used language for Android development.</item>
+        <item>HAL does not provides an interface between device drivers</item>
+        <item>The entire android functionalities are available through the API.</item>
+        <item>The Android application is a bottom layer and all types of in-built applications</item>
+        <item>res/: It contains bitmap images, UI Strings and XML Layout</item>
+        <item>assets/: It contains a file that should be compiled into a .api file.</item>
+        <item>Activities are the part of the mobile app which the user can see and interact with.</item>
+        <item>Service is an Android component that runs in the background and acts independently. </item>
+
+    </string-array>
+
+    <string-array name="solution">
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+        <item>True</item>
+
+    </string-array>
+</resources>

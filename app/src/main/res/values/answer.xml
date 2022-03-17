@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ans">
+        <item>Android is an open-sourced operating system that is used on mobile devices, such as mobiles and tablets. The Android application executes within its own process and its own instance of Dalvik Virtual Machine(DVM) or Android RunTime(ART)</item>
+        <item>Android architecture refers to the various layers in the Android stack. It consists of operating systems, middleware, and applications. Each layer in the Android architecture gives different services to the layer just above it.</item>
+        <item>Service is an application component that facilitates an application to run in the background in order to perform long-running operations without user interaction. A service can run continuously in the background even if the application is closed or even after the user switches to another application.</item>
+        <item>The Google Android SDK is a toolset used by developers to write applications on Android-enabled devices.</item>
+        <item>AAPT stands for Android Asset Packaging Tool. It is a build tool that gives the ability to developers to view, create, and update ZIP-compatible archives (zip, jar, and apk). It parses, indexes, and compiles the resources into a binary format that is optimized for the platform of Android.</item>
+        <item>Portable Wi-Fi Hotspot permits you to share your mobile internet connection with other wireless devices. For example, using your Android phone as a Wi-Fi hotspot, you can use your laptop to connect to the internet using that access point.</item>
+        <item>Android Debug Bridge is a command-line tool used to allow and control communication with an emulator instance. It gives the power for developers to execute remote shell commands to run applications on an emulator.</item>
+        <item>DDMS(Dalvik Debug Monitor Server) is a debugging tool in the Android platform. It gives the following list of debugging features:
+            ->Port forwarding services
+            ->Thread and heap information.
+            ->Logcat.
+            ->Screen capture on the device.
+            ->Network traffic tracking.
+            ->Incoming call and SMS</item>
+        <item>AIDL(Android Interface Definition Language) is a tool that handles the interface requirements between a client and a service for interprocess communication(IPC) to communicate at the same level.The process involves dividing an object into primitives that are understood by the Android operating system.</item>
+        <item>An intent is a messaging object that is used to request an action from other components of an application. It can also be used to launch an activity, send SMS, send an email, display a web page, etc.
+        Implicit Intent- Used to invoke the system components.
+        Explicit Intent- Used to invoke the activity class.</item>
+    </string-array>
+</resources>

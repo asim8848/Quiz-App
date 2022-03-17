@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:weightSum="6"
+    tools:context=".MainActivity2">
+
+        <ImageView
+            android:id="@+id/manimg"
+            android:layout_width="281dp"
+            android:layout_height="308dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/quesprep"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.413"
+            app:srcCompat="@drawable/think" />
+    <Button
+        android:id="@+id/quesprep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:onClick="demo1"
+        android:text="Question Preparation"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/manimg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/manimg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+
+    <Button
+        android:id="@+id/mcqquiz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/gradient"
+        android:onClick="demo2"
+        android:text="MCQ'S QUIZ"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tf"
+        app:layout_constraintEnd_toEndOf="@+id/quesprep"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/quesprep"
+        app:layout_constraintTop_toBottomOf="@+id/quesprep"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/tf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:onClick="demo3"
+        android:text="TRUE / FALSE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/showmore"
+        app:layout_constraintEnd_toEndOf="@+id/mcqquiz"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mcqquiz"
+        app:layout_constraintTop_toBottomOf="@+id/quesprep"
+        app:layout_constraintVertical_bias="0.773" />
+
+
+
+    <Button
+        android:id="@+id/showmore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/gradient"
+        android:onClick="demo4"
+        android:text="SHOW MORE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tf"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tf"
+        app:layout_constraintTop_toTopOf="@+id/quesprep"
+        app:layout_constraintVertical_bias="0.226" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ques">
+        <item>What is Android?</item>
+        <item>What are the features of Android architecture?</item>
+        <item>What is a service in Android?</item>
+        <item>What is Google Android SDK? </item>
+        <item>What is AAPT?</item>
+        <item>What is portable Wi-Fi hotspot?</item>
+        <item>What is Android Debug Bridge(ADB)?</item>
+        <item>What is DDMS?</item>
+        <item>What is AIDL? Which data types are supported by AIDL?</item>
+        <item>What is an intent?</item>
+    </string-array>
+</resources>

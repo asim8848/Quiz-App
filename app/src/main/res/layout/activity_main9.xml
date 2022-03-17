@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".MainActivity9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F44336"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/xxtf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="XX/"
+            android:textAlignment="viewEnd"
+            android:textColor="#3A3535"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/yytf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="YY"
+            android:textColor="#3A3535"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tfquestion"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:height="0dp"
+            android:gravity="center"
+            android:text="QUESTIONS:"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_weight="3"
+            android:weightSum="3">
+
+            <RadioButton
+                android:id="@+id/truebtn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:text="TRUE"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/falsebtn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:text="FALSE"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/tfbackbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bottombtn" />
+
+        <Button
+            android:id="@+id/tfsubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient1"
+            android:text="SUBMIT"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tfnextbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:rotation="180"
+            app:srcCompat="@drawable/bottombtn" />
+    </LinearLayout>
+</LinearLayout>

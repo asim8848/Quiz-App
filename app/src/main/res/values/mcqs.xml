@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="mcqs">
+    <item>Android is -</item>
+    <item>Under which of the following Android is licensed?</item>
+    <item>For which of the following Android is mainly developed?</item>
+    <item>Which of the following is the first mobile phone released that ran the Android OS?</item>
+    <item>Which of the following virtual machine is used by the Android operating system?</item>
+    <item>Android is based on which of the following language?</item>
+    <item>APK stands for -</item>
+    <item>What does API stand for?</item>
+    <item>Which of the following converts Java byte code into Dalvik byte code?</item>
+    <item>How can we stop the services in android?</item>
+</string-array>
+
+    <string-array name="one">
+        <item>an operating system</item>
+        <item>OSS</item>
+        <item>Servers</item>
+        <item>HTC Hero</item>
+        <item>JVM</item>
+        <item>Java</item>
+        <item>Android Phone Kit</item>
+        <item>Application Programming Interface</item>
+        <item>Dalvik converter</item>
+        <item>stopSelf() method</item>
+    </string-array>
+
+    <string-array name="two">
+        <item>a web browser</item>
+        <item>Sourceforge</item>
+        <item>Desktops</item>
+        <item>Google gPhone</item>
+        <item>Dalvik virtual machine</item>
+        <item>C++</item>
+        <item>Android Page Kit</item>
+        <item>Android Programming Interface</item>
+        <item>Dex compiler</item>
+        <item>finish() method</item>
+    </string-array>
+
+    <string-array name="three">
+        <item>a web server</item>
+        <item>Apache/MIT</item>
+        <item>Laptops</item>
+        <item>T - Mobile G1</item>
+        <item>Simple virtual machine</item>
+        <item>C</item>
+        <item>Android Package Kit</item>
+        <item>Android Page Interface</item>
+        <item>Mobile interpretive compiler (MIC)</item>
+        <item>system.exit() method</item>
+    </string-array>
+
+    <string-array name="four">
+        <item>None of the above</item>
+        <item>None of the above</item>
+        <item>Mobile devices</item>
+        <item>None of the above</item>
+        <item>None of the above</item>
+        <item>None of the above</item>
+        <item>None of the above</item>
+        <item>Application Page Interface</item>
+        <item>None of the above</item>
+        <item>None of the above</item>
+    </string-array>
+
+    <string-array name="sol">
+        <item>an operating system</item>
+        <item>Apache/MIT</item>
+        <item>Mobile devices</item>
+        <item>T - Mobile G1</item>
+        <item>Dalvik virtual machine</item>
+        <item>Java</item>
+        <item>Android Package Kit</item>
+        <item>Application Programming Interface</item>
+        <item>Dex compiler</item>
+        <item>stopSelf() method</item>
+    </string-array>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:padding="20dp"
+    tools:context=".truefalseResult">
+
+    <TextView
+        android:id="@+id/Resulttxt"
+        android:layout_width="270dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/gradient1"
+        android:gravity="center"
+        android:text="RESULT:"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/correctans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/correctans"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:background="#8A817070"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="CORRECT ANSWERS:"
+        android:textColor="#171515"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/wrongans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <TextView
+        android:id="@+id/wrongans"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:background="#8A817070"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="WRONG ANSWERS: "
+        android:textColor="#171515"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/correctans"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/correctans"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <Button
+        android:id="@+id/tryagainbtn"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:background="@drawable/gradient1"
+        android:text="Try Again"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/wrongans"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="@+id/wrongans"
+        app:layout_constraintTop_toBottomOf="@+id/wrongans"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/endbtn"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:background="@drawable/gradient"
+        android:text="End "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/wrongans"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/wrongans"
+        app:layout_constraintTop_toBottomOf="@+id/wrongans"
+        app:layout_constraintVertical_bias="0.927" />
+</androidx.constraintlayout.widget.ConstraintLayout>
